@@ -1,0 +1,408 @@
+@import url(//db.onlinewebfonts.com/c/76888f391729c7bcb81ab98f8df64144?family=OPPOSans+B);
+
+header{
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;   
+    z-index: 1;
+   border-bottom: 1px solid rgba(192, 192, 192, 0.482);
+}
+.hicon{
+    margin-left:60px;
+    margin-top: -20px;
+
+}
+.hoption_wrap{
+color: black;
+display: flex;
+flex-direction: row;   
+color: rgba(104, 95, 95, 0.714);
+font-size: 14px;
+font-weight: 500;
+margin-left: 30px;
+}
+.ho {
+margin: 15px;
+margin-left: 12px;
+display: inline-block;
+position: relative;
+color: #6d7274;
+
+}
+
+.ho::after {
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 2px;
+top: 34px;
+left: 0;
+background-color: #0e0e0e;
+
+transition: transform 0.2s ease-out;
+
+}
+
+.ho:hover::after {
+transform: scaleX(1);
+transform-origin: center;
+    
+}
+.ho:hover{
+    color: #0e0e0e;
+}
+.hmore{
+    display: flex;
+    margin: 10px;
+    margin-left: 180px;
+}
+.hm{
+    margin-left: 20px;
+    font-size: 15px;
+    color: #a9aeb0;
+    margin-top: 3px;
+}
+.hm:hover{
+    color: #0e0e0e;
+    
+}
+.search_bar{
+    background-color: #f1f1f1;
+    border-radius: 60px;
+    height: 35px;
+    width: 230px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: -3px;  
+    position: relative;
+}
+.search_bar button{
+    cursor: pointer;
+    position: absolute;
+    padding: 6px;
+}
+.search_bar input:hover,.search_bar input:focus{
+   
+  background-color: rgb(226, 226, 226);
+  border-radius: 60px;
+}
+.search_bar input {
+    border: 0;
+    background: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    flex: 1;
+    outline: none;
+    margin-left: 30px;
+}
+::placeholder{
+    color: #a9aeb0;
+}
+.search_bar button{
+    border: 0;
+    margin-left: 8px;
+    margin-top: 5px;
+    background: transparent;
+}
+.cartbtn,.userbtn{
+    margin-top: 10px;
+    padding: 5px;
+    height: 25px;
+}
+.cartbtn:hover,.userbtn:hover{
+    background-color: #dedede;
+    border: 0;
+    border-radius: 200px;
+   
+    
+}
+.cartbtn button,.userbtn button{
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bgimg {
+  width: 100%;
+}
+body {
+  margin: 0;
+}
+.container_section{
+    position: relative;
+}
+.bnrcontent {
+  color: white;
+  position: absolute;
+  bottom: 260px;
+  left: 125px;
+  
+  
+}
+.bnrtitle {
+  font-size: 60px;
+  font-weight: 500;
+}
+.bnrsubtitle {
+  font-size: larger;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+.bnrdescription {
+  font-size: small;
+  color: rgb(129, 136, 143);
+  font-weight: 500;
+  margin-top: 20px;
+}
+.bnrbtn {
+  width: 140px;
+  height: 55px;
+  font-weight: 500;
+  color: rgba(91, 78, 78, 80);
+
+  font-size: 17px;
+  border: 0;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.bnrbtn:hover {
+  background-color: rgb(218, 216, 216);
+}
+.featuring_section {
+  background-image: linear-gradient(white, rgba(226, 226, 226, 0.604));
+  width: 100%;
+  height: 1330px;
+}
+.fsh {
+  margin-left: 100px;
+  margin-bottom: 30px;
+  font-size: 45px;
+  margin-top: 130px;
+  margin-bottom: 70px;
+}
+.fsphone1,.fsphone2,.fsphone3 {
+  margin-left: 100px;
+  width: 40%;
+  margin-bottom: 0;
+}
+.fsphone2,.fsphone3 {
+  margin-left: 203px;
+  margin-bottom: 50px;
+}
+
+.new {
+  color: rgb(13, 234, 13);
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 380px;
+  position: relative;
+  bottom: 25px;
+  left: 170px;
+}
+.phone_name {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.phone_description {
+  margin: 0;
+  margin-top: -15px;
+  
+  color: rgb(95, 91, 86);
+  font-weight: 400;
+  font-size: 15px;
+}
+.buynowbtn {
+  background-color: black;
+  color: whitesmoke;
+  height: 30px;
+  width: 90px;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-right: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.buynowbtn:hover {
+  background-color: rgba(0, 0, 0, 0.632);
+  border: 0;
+  border-radius: 3px;
+}
+.lm {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: smaller;
+  font-weight: 500;
+  text-underline-offset: 6px;
+}
+.lm:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+.price_tag {
+  font: 400;
+  color: rgb(86, 86, 121);
+}
+.pre_price {
+  margin-left: 5px;
+  font-size: small;
+  text-decoration-line: line-through;
+}
+.recommend-phones-wrapper {
+  display: flex;
+}
+.query{
+  position: sticky;
+  bottom: 70px;
+  margin-left: 1400px;
+  
+}
+.q_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcdcdcd2;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin: 20px;
+  cursor: pointer;
+}
+.ho-hover{
+  display: none;
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(5, 5, 5);
+  margin-top: 50px;
+  
+}
+.ho:hover .ho-hover {
+  display: block;
+}
+.semi_head{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+.semi_head label{
+  cursor: text;
+}
+.semi_head button{
+  border-radius: 80px;
+  height: 35px;
+  width: 35px;
+  margin: 10px;
+  cursor: pointer;
+  border-color: #74787a;
+  border-style: double;
+  padding: 5px;
+  
+}
+.semi_show_up{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 80px;
+  cursor: pointer;
+}
+
+.bgcolor{
+  width: 100%;
+  background-color: #e1e1e1;
+  margin-top: 120px;
+  height: 800px;
+}
+.subscribe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background-color: rgb(249 244 236);
+  margin-top: 160px;
+}
+.subcnt{
+  width: 50%;
+}
+.subcnt label{
+  margin: 0;
+}
+.make_small p,.make_small a{
+  font-size: small;
+}
+.last_section{
+  background-color: #0e0e0e;
+  color: #fff;
+  width: 100%;
+  height: 500px;
+}
+.texts-wrap{
+  display: flex;
+  flex-direction: column;
+}
+.texts-wrap a{
+  text-decoration: none;
+  color: rgb(174, 174, 174);
+  font-size: 12px;
+  margin-top: 8px;
+}
+.texts-wrap label{
+  color: white;
+  font-size: x-large;
+}
+.footer-text{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+footer{
+  height: 500px;
+  background-color: #0e0e0e;
+  margin-top: -13px;
+}
+.small{
+  font-size: 12px;
+  margin-left: 180px;
+  padding-top: 25px;
+  color: #dedede;
+}
+.alignofsubscribe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.num_enter button{
+  border: 0;
+  font-size: x-large;
+  margin-left: -3px;
+  position: absolute;
+  right: 460px;
+  background-color: transparent;
+  margin-top: 7px;
+}
+.num_enter input{
+  width: 600px;
+  height: 35px;
+}
